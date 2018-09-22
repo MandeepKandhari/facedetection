@@ -59,7 +59,7 @@ onInputChange=(event)=>{
 
 onButtonClick=(event)=>{
   this.setState({imageUrl:this.state.input});
-  fetch('http://localhost:3002/imageurl',{
+  fetch('https://facedetection-backend.herokuapp.com/imageurl',{
       method:'post',
       headers:{'Content-Type':'application/json'},
       body:JSON.stringify({
