@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Particles from 'react-particles-js';
-import Logo from'./Logo';
+import Navbar from'./Navbar';
 import Form from './Form';
 import Image from './Image';
 import 'tachyons';
@@ -77,7 +77,7 @@ render() {
     <div className='App'>
       <Particles className='particles' params={particlesOptions} />
       <div>
-        <Logo />
+        <Navbar />
         <Form onInputChange={this.onInputChange} onButtonClick={this.onButtonClick}  /> 
         <Image box={this.state.box} imageUrl={this.state.imageUrl}  />
       </div>

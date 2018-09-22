@@ -1,8 +1,10 @@
 .Tilt{
-	background: linear-gradient(to right, rgba(7, 27, 82, 1) 0%, rgba(0, 128, 128, 1) 100%);
 	height:150px;
 	width: 150px;
-	
+}
+.tilt-inner{
+	margin-top:-0.2em;
+	margin-left:-0.1em;
 }
 @media (max-width: 45em){
 	.Tilt{
