@@ -1,0 +1,13 @@
+.Tilt{
+	background: linear-gradient(to right, rgba(7, 27, 82, 1) 0%, rgba(0, 128, 128, 1) 100%);
+	height:150px;
+	width: 150px;
+	
+}
+@media (max-width: 45em){
+	.Tilt{
+	height:100px;
+	width:100px;
+	
+	}
+}
