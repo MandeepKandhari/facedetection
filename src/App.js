@@ -77,7 +77,7 @@ render() {
     <div className='App'>
       <Particles className='particles' params={particlesOptions} />
       <div>
-        <Navbar />
+        <Navbar/>
         <Form onInputChange={this.onInputChange} onButtonClick={this.onButtonClick}  /> 
         <Image box={this.state.box} imageUrl={this.state.imageUrl}  />
       </div>
